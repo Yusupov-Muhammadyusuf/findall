@@ -1,0 +1,935 @@
+{
+    "category": "API",
+    "services": [
+        {
+            "id": 1,
+            "name": "JSONPlaceholder API",
+            "url": "https://jsonplaceholder.typicode.com",
+            "description": "A free fake REST API for testing and prototyping frontend applications."
+        },
+        {
+            "id": 2,
+            "name": "OpenWeather API",
+            "url": "https://openweathermap.org/api",
+            "description": "Provides real-time weather data, forecasts, and historical weather information."
+        },
+        {
+            "id": 3,
+            "name": "REST Countries API",
+            "url": "https://restcountries.com",
+            "description": "Get information about countries including population, region, and flags."
+        },
+        {
+            "id": 4,
+            "name": "Cat Facts API",
+            "url": "https://catfact.ninja",
+            "description": "Returns random facts about cats for fun or demo projects."
+        },
+        {
+            "id": 5,
+            "name": "Dog CEO API",
+            "url": "https://dog.ceo/dog-api",
+            "description": "A free API to get random dog images by breed."
+        },
+        {
+            "id": 6,
+            "name": "NASA Open APIs",
+            "url": "https://api.nasa.gov",
+            "description": "Public APIs from NASA including space images and astronomy data."
+        },
+        {
+            "id": 7,
+            "name": "Unsplash API",
+            "url": "https://unsplash.com/developers",
+            "description": "Access high-quality free images for applications and websites."
+        },
+        {
+            "id": 8,
+            "name": "NewsAPI",
+            "url": "https://newsapi.org",
+            "description": "Search worldwide news articles from thousands of sources."
+        },
+        {
+            "id": 9,
+            "name": "ExchangeRate API",
+            "url": "https://www.exchangerate-api.com",
+            "description": "Provides real-time and historical foreign exchange rates."
+        },
+        {
+            "id": 10,
+            "name": "IP Geolocation API",
+            "url": "https://ipapi.co/api",
+            "description": "Get location and ISP information based on IP addresses."
+        },
+        {
+            "id": 11,
+            "name": "Random User API",
+            "url": "https://randomuser.me",
+            "description": "Generates random user data for testing and mockups."
+        },
+        {
+            "id": 12,
+            "name": "Open Trivia API",
+            "url": "https://opentdb.com/api_config.php",
+            "description": "Free trivia questions API for quiz applications."
+        },
+        {
+            "id": 13,
+            "name": "JokeAPI",
+            "url": "https://jokeapi.dev",
+            "description": "A simple API that delivers jokes in various formats."
+        },
+        {
+            "id": 14,
+            "name": "Bored API",
+            "url": "https://www.boredapi.com",
+            "description": "Suggests random activities when you are bored."
+        },
+        {
+            "id": 15,
+            "name": "CoinGecko API",
+            "url": "https://www.coingecko.com/en/api",
+            "description": "Free cryptocurrency prices, market data, and charts."
+        },
+        {
+            "id": 16,
+            "name": "Open Library API",
+            "url": "https://openlibrary.org/developers/api",
+            "description": "Access book data including authors, ISBNs, and covers."
+        },
+        {
+            "id": 17,
+            "name": "Agify API",
+            "url": "https://agify.io",
+            "description": "Predicts age based on a given name using statistical data."
+        },
+        {
+            "id": 18,
+            "name": "Genderize API",
+            "url": "https://genderize.io",
+            "description": "Predicts gender based on first names."
+        },
+        {
+            "id": 19,
+            "name": "Nationalize API",
+            "url": "https://nationalize.io",
+            "description": "Predicts nationality based on name."
+        },
+        {
+            "id": 20,
+            "name": "Quotes API",
+            "url": "https://api.quotable.io",
+            "description": "Provides inspirational and famous quotes."
+        },
+        {
+            "id": 21,
+            "name": "PokeAPI",
+            "url": "https://pokeapi.co",
+            "description": "A complete Pokémon data API including abilities and stats."
+        },
+        {
+            "id": 22,
+            "name": "The Meal DB API",
+            "url": "https://www.themealdb.com/api.php",
+            "description": "Search meals, recipes, and ingredients."
+        },
+        {
+            "id": 23,
+            "name": "The Cocktail DB API",
+            "url": "https://www.thecocktaildb.com/api.php",
+            "description": "Cocktail recipes and drink images API."
+        },
+        {
+            "id": 24,
+            "name": "URL Shortener API",
+            "url": "https://shrtco.de/docs",
+            "description": "Create and manage short URLs programmatically."
+        },
+        {
+            "id": 25,
+            "name": "Abstract API",
+            "url": "https://www.abstractapi.com",
+            "description": "APIs for email validation, IP lookup, and more."
+        },
+        {
+            "id": 26,
+            "name": "OpenAI API",
+            "url": "https://platform.openai.com/docs",
+            "description": "Build AI-powered applications using language and vision models."
+        },
+        {
+            "id": 27,
+            "name": "Supabase API",
+            "url": "https://supabase.com/docs",
+            "description": "Backend-as-a-service APIs for databases and authentication."
+        },
+        {
+            "id": 28,
+            "name": "Stripe API",
+            "url": "https://stripe.com/docs/api",
+            "description": "Payment processing API for online businesses."
+        },
+        {
+            "id": 29,
+            "name": "Firebase API",
+            "url": "https://firebase.google.com/docs",
+            "description": "APIs for authentication, databases, and cloud functions."
+        },
+        {
+            "id": 30,
+            "name": "Mapbox API",
+            "url": "https://docs.mapbox.com/api",
+            "description": "Custom maps, geocoding, and navigation APIs."
+        },
+        {
+            "id": 31,
+            "name": "Here Maps API",
+            "url": "https://developer.here.com",
+            "description": "Location services including routing and traffic data."
+        },
+        {
+            "id": 32,
+            "name": "Giphy API",
+            "url": "https://developers.giphy.com",
+            "description": "Search and retrieve animated GIFs."
+        },
+        {
+            "id": 33,
+            "name": "TMDB API",
+            "url": "https://developers.themoviedb.org",
+            "description": "Movie and TV show database with ratings and metadata."
+        },
+        {
+            "id": 34,
+            "name": "Stack Exchange API",
+            "url": "https://api.stackexchange.com",
+            "description": "Access data from Stack Overflow and other Stack Exchange sites."
+        },
+        {
+            "id": 35,
+            "name": "GitHub API",
+            "url": "https://docs.github.com/en/rest",
+            "description": "Interact with repositories, users, and issues on GitHub."
+        },
+        {
+            "id": 36,
+            "name": "GitLab API",
+            "url": "https://docs.gitlab.com/ee/api",
+            "description": "APIs for GitLab repositories, CI/CD, and users."
+        },
+        {
+            "id": 37,
+            "name": "WeatherAPI",
+            "url": "https://www.weatherapi.com",
+            "description": "Simple weather and forecast API with global coverage."
+        },
+        {
+            "id": 38,
+            "name": "Lorem Picsum API",
+            "url": "https://picsum.photos",
+            "description": "Random placeholder images for design and development."
+        },
+        {
+            "id": 39,
+            "name": "Mockaroo API",
+            "url": "https://mockaroo.com",
+            "description": "Generate realistic mock data via API."
+        },
+        {
+            "id": 40,
+            "name": "ReqRes API",
+            "url": "https://reqres.in",
+            "description": "A hosted REST API for frontend testing."
+        },
+        {
+            "id": 41,
+            "name": "CurrencyAPI",
+            "url": "https://currencyapi.com",
+            "description": "Fast and reliable currency exchange rate API."
+        },
+        {
+            "id": 42,
+            "name": "TimeZone API",
+            "url": "https://timezonedb.com/api",
+            "description": "Get time zone and local time data by location."
+        },
+        {
+            "id": 43,
+            "name": "Open Food Facts API",
+            "url": "https://world.openfoodfacts.org/data",
+            "description": "Open database of food products and nutrition facts."
+        },
+        {
+            "id": 44,
+            "name": "QR Code API",
+            "url": "https://goqr.me/api",
+            "description": "Generate QR codes dynamically via API."
+        },
+        {
+            "id": 45,
+            "name": "Shazam API",
+            "url": "https://developer.apple.com/shazamkit",
+            "description": "Music recognition and metadata API."
+        },
+        {
+            "id": 46,
+            "name": "Open Brewery DB API",
+            "url": "https://www.openbrewerydb.org",
+            "description": "Free dataset of breweries, cideries, and brewpubs."
+        },
+        {
+            "id": 47,
+            "name": "NASA Image API",
+            "url": "https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf",
+            "description": "Search and retrieve NASA images and videos."
+        },
+        {
+            "id": 48,
+            "name": "Mailcheck API",
+            "url": "https://github.com/mailcheck/mailcheck",
+            "description": "Suggests correct email domains to reduce typos."
+        },
+        {
+            "id": 49,
+            "name": "Bitly API",
+            "url": "https://dev.bitly.com",
+            "description": "URL shortening and link analytics API."
+        },
+        {
+            "id": 50,
+            "name": "Calendarific API",
+            "url": "https://calendarific.com",
+            "description": "Public holidays API for over 200 countries."
+        },
+        {
+            "id": 51,
+            "name": "Open Brewery DB API",
+            "url": "https://www.openbrewerydb.org",
+            "description": "Free API for public brewery information in the US."
+        },
+        {
+            "id": 52,
+            "name": "JokeAPI",
+            "url": "https://jokeapi.dev",
+            "description": "API that delivers jokes in multiple programming-friendly formats."
+        },
+        {
+            "id": 53,
+            "name": "Agify API",
+            "url": "https://agify.io",
+            "description": "Predicts age based on a given name."
+        },
+        {
+            "id": 54,
+            "name": "Genderize API",
+            "url": "https://genderize.io",
+            "description": "Predicts gender based on first name."
+        },
+        {
+            "id": 55,
+            "name": "Nationalize API",
+            "url": "https://nationalize.io",
+            "description": "Predicts nationality based on name."
+        },
+        {
+            "id": 56,
+            "name": "IPify API",
+            "url": "https://www.ipify.org",
+            "description": "Simple public IP address API."
+        },
+        {
+            "id": 57,
+            "name": "Abstract Timezone API",
+            "url": "https://www.abstractapi.com/timezone-api",
+            "description": "Get timezone information from location or IP."
+        },
+        {
+            "id": 58,
+            "name": "Free Dictionary API",
+            "url": "https://dictionaryapi.dev",
+            "description": "Word definitions, phonetics, and examples."
+        },
+        {
+            "id": 59,
+            "name": "Random Data API",
+            "url": "https://random-data-api.com",
+            "description": "Generate random user and data sets for testing."
+        },
+        {
+            "id": 60,
+            "name": "QR Code Generator API",
+            "url": "https://goqr.me/api",
+            "description": "Create QR codes programmatically."
+        },
+        {
+            "id": 61,
+            "name": "Open Meteo API",
+            "url": "https://open-meteo.com",
+            "description": "Free weather forecast API without API keys."
+        },
+        {
+            "id": 62,
+            "name": "SpaceX API",
+            "url": "https://github.com/r-spacex/SpaceX-API",
+            "description": "Public data about SpaceX launches and rockets."
+        },
+        {
+            "id": 63,
+            "name": "Public Holidays API",
+            "url": "https://date.nager.at",
+            "description": "Get public holidays by country and year."
+        },
+        {
+            "id": 64,
+            "name": "REST Countries API",
+            "url": "https://restcountries.com",
+            "description": "Country information including flags, population, and currencies."
+        },
+        {
+            "id": 65,
+            "name": "Dog CEO API",
+            "url": "https://dog.ceo/dog-api",
+            "description": "Random dog images and breed data."
+        },
+        {
+            "id": 66,
+            "name": "Cat Facts API",
+            "url": "https://catfact.ninja",
+            "description": "Random facts about cats."
+        },
+        {
+            "id": 67,
+            "name": "Open Trivia DB API",
+            "url": "https://opentdb.com",
+            "description": "Trivia questions for quiz applications."
+        },
+        {
+            "id": 68,
+            "name": "CoinDesk API",
+            "url": "https://www.coindesk.com/coindesk-api",
+            "description": "Bitcoin price index and crypto data."
+        },
+        {
+            "id": 69,
+            "name": "URL Shortener API",
+            "url": "https://shrtco.de/docs",
+            "description": "Shorten and manage URLs."
+        },
+        {
+            "id": 70,
+            "name": "Open Library API",
+            "url": "https://openlibrary.org/developers/api",
+            "description": "Book data including authors and editions."
+        },
+        {
+            "id": 71,
+            "name": "Lyrics.ovh API",
+            "url": "https://lyricsovh.docs.apiary.io",
+            "description": "Fetch song lyrics by artist and title."
+        },
+        {
+            "id": 72,
+            "name": "Foodish API",
+            "url": "https://foodish-api.herokuapp.com",
+            "description": "Random food images API."
+        },
+        {
+            "id": 73,
+            "name": "Bored API",
+            "url": "https://www.boredapi.com",
+            "description": "Find random activities to fight boredom."
+        },
+        {
+            "id": 74,
+            "name": "Advice Slip API",
+            "url": "https://api.adviceslip.com",
+            "description": "Random advice generator API."
+        },
+        {
+            "id": 75,
+            "name": "Useless Facts API",
+            "url": "https://uselessfacts.jsph.pl",
+            "description": "Random useless but interesting facts."
+        },
+        {
+            "id": 76,
+            "name": "Quotable API",
+            "url": "https://github.com/lukePeavey/quotable",
+            "description": "Famous quotes with authors and tags."
+        },
+        {
+            "id": 77,
+            "name": "Open Exchange Rates API",
+            "url": "https://openexchangerates.org",
+            "description": "Currency exchange rates and conversions."
+        },
+        {
+            "id": 78,
+            "name": "Fixer API",
+            "url": "https://fixer.io",
+            "description": "Foreign exchange rates API."
+        },
+        {
+            "id": 79,
+            "name": "Random User API",
+            "url": "https://randomuser.me",
+            "description": "Generate random user profile data."
+        },
+        {
+            "id": 80,
+            "name": "Free To Play Games API",
+            "url": "https://www.freetogame.com/api-doc",
+            "description": "List of free-to-play games and metadata."
+        },
+        {
+            "id": 81,
+            "name": "University Domains API",
+            "url": "https://github.com/Hipo/university-domains-list-api",
+            "description": "University names and domains worldwide."
+        },
+        {
+            "id": 82,
+            "name": "API Ninjas Quotes API",
+            "url": "https://api-ninjas.com/api/quotes",
+            "description": "Quote data by category."
+        },
+        {
+            "id": 83,
+            "name": "Marvel API",
+            "url": "https://developer.marvel.com",
+            "description": "Marvel comics characters and stories."
+        },
+        {
+            "id": 84,
+            "name": "Open Food Facts API",
+            "url": "https://world.openfoodfacts.org/data",
+            "description": "Food product data including ingredients."
+        },
+        {
+            "id": 85,
+            "name": "NASA APOD API",
+            "url": "https://api.nasa.gov",
+            "description": "Astronomy Picture of the Day API."
+        },
+        {
+            "id": 86,
+            "name": "Cataas API",
+            "url": "https://cataas.com",
+            "description": "Random cat images API."
+        },
+        {
+            "id": 87,
+            "name": "OpenAQ API",
+            "url": "https://docs.openaq.org",
+            "description": "Global air quality data."
+        },
+        {
+            "id": 88,
+            "name": "REST Quote API",
+            "url": "https://type.fit/api/quotes",
+            "description": "Simple REST API for quotes."
+        },
+        {
+            "id": 89,
+            "name": "IP Geolocation API",
+            "url": "https://ip-api.com",
+            "description": "IP-based location lookup."
+        },
+        {
+            "id": 90,
+            "name": "Open Disease API",
+            "url": "https://disease.sh",
+            "description": "Disease and condition data API."
+        },
+        {
+            "id": 91,
+            "name": "Chuck Norris Jokes API",
+            "url": "https://api.chucknorris.io",
+            "description": "Random Chuck Norris jokes."
+        },
+        {
+            "id": 92,
+            "name": "TVMaze API",
+            "url": "https://www.tvmaze.com/api",
+            "description": "TV show and episode information."
+        },
+        {
+            "id": 93,
+            "name": "Open Notify API",
+            "url": "http://open-notify.org",
+            "description": "ISS location and space data."
+        },
+        {
+            "id": 94,
+            "name": "API Football",
+            "url": "https://www.api-football.com",
+            "description": "Football statistics and live scores."
+        },
+        {
+            "id": 95,
+            "name": "Calendarific API",
+            "url": "https://calendarific.com",
+            "description": "Worldwide public holidays API."
+        },
+        {
+            "id": 96,
+            "name": "The Rick and Morty API",
+            "url": "https://rickandmortyapi.com",
+            "description": "Characters, episodes, and locations."
+        },
+        {
+            "id": 97,
+            "name": "Open Weather Icons API",
+            "url": "https://erikflowers.github.io/weather-icons",
+            "description": "Weather condition icons API."
+        },
+        {
+            "id": 98,
+            "name": "Country Flags API",
+            "url": "https://flagcdn.com",
+            "description": "SVG and PNG country flags API."
+        },
+        {
+            "id": 99,
+            "name": "World Time API",
+            "url": "https://worldtimeapi.org",
+            "description": "Current time by timezone."
+        },
+        {
+            "id": 100,
+            "name": "Open Emoji API",
+            "url": "https://emoji-api.com",
+            "description": "Emoji data and metadata API."
+        },
+        {
+            "id": 101,
+            "name": "Art Institute of Chicago API",
+            "url": "https://api.artic.edu/docs",
+            "description": "Museum artwork and artist data."
+        },
+        {
+            "id": 102,
+            "name": "Open Movie Database API",
+            "url": "https://www.omdbapi.com",
+            "description": "Movie and TV show metadata."
+        },
+        {
+            "id": 103,
+            "name": "Open Science Framework API",
+            "url": "https://developer.osf.io",
+            "description": "Scientific research data API."
+        },
+        {
+            "id": 104,
+            "name": "Stack Exchange API",
+            "url": "https://api.stackexchange.com",
+            "description": "Access Stack Overflow and network data."
+        },
+        {
+            "id": 105,
+            "name": "Open Brewery Geo API",
+            "url": "https://www.openbrewerydb.org/documentation",
+            "description": "Brewery geolocation data API."
+        },
+        {
+            "id": 106,
+            "name": "Zen Quotes API",
+            "url": "https://zenquotes.io",
+            "description": "Daily inspirational and motivational quotes."
+        },
+        {
+            "id": 107,
+            "name": "ReqRes API",
+            "url": "https://reqres.in",
+            "description": "Hosted REST API for frontend testing and prototyping."
+        },
+        {
+            "id": 108,
+            "name": "Abstract Email Validation API",
+            "url": "https://www.abstractapi.com/email-verification-validation-api",
+            "description": "Validate email addresses in real time."
+        },
+        {
+            "id": 109,
+            "name": "Have I Been Pwned API",
+            "url": "https://haveibeenpwned.com/API/v3",
+            "description": "Check if an email or password was compromised."
+        },
+        {
+            "id": 110,
+            "name": "BigData Cloud IP API",
+            "url": "https://www.bigdatacloud.com",
+            "description": "IP geolocation and network intelligence."
+        },
+        {
+            "id": 111,
+            "name": "OpenSky Network API",
+            "url": "https://opensky-network.org/apidoc",
+            "description": "Real-time air traffic and flight data."
+        },
+        {
+            "id": 112,
+            "name": "LibreTranslate API",
+            "url": "https://libretranslate.com",
+            "description": "Open-source machine translation API."
+        },
+        {
+            "id": 113,
+            "name": "ExchangeRate Host API",
+            "url": "https://exchangerate.host",
+            "description": "Free foreign exchange rates API."
+        },
+        {
+            "id": 114,
+            "name": "API Layer Screenshot API",
+            "url": "https://apilayer.com/marketplace/screenshot-api",
+            "description": "Capture website screenshots programmatically."
+        },
+        {
+            "id": 115,
+            "name": "Numbers API",
+            "url": "http://numbersapi.com",
+            "description": "Interesting facts about numbers and dates."
+        },
+        {
+            "id": 116,
+            "name": "Open Notify People in Space API",
+            "url": "http://open-notify.org/Open-Notify-API/People-In-Space",
+            "description": "Get current number of people in space."
+        },
+        {
+            "id": 117,
+            "name": "CoinGecko API",
+            "url": "https://www.coingecko.com/en/api",
+            "description": "Cryptocurrency prices and market data."
+        },
+        {
+            "id": 118,
+            "name": "API Ninjas Password Generator",
+            "url": "https://api-ninjas.com/api/passwordgenerator",
+            "description": "Generate secure random passwords."
+        },
+        {
+            "id": 119,
+            "name": "Deck of Cards API",
+            "url": "https://deckofcardsapi.com",
+            "description": "Simulate a deck of cards with shuffle and draw."
+        },
+        {
+            "id": 120,
+            "name": "Open Topo Data API",
+            "url": "https://www.opentopodata.org",
+            "description": "Elevation data for geographic coordinates."
+        },
+        {
+            "id": 121,
+            "name": "Abstract Phone Validation API",
+            "url": "https://www.abstractapi.com/phone-validation-api",
+            "description": "Validate phone numbers globally."
+        },
+        {
+            "id": 122,
+            "name": "Open Farm API",
+            "url": "https://openfarm.cc",
+            "description": "Open database of farming and crop information."
+        },
+        {
+            "id": 123,
+            "name": "Open UV API",
+            "url": "https://www.openuv.io",
+            "description": "Global UV index and sun exposure data."
+        },
+        {
+            "id": 124,
+            "name": "Random Quote Machine API",
+            "url": "https://github.com/lukePeavey/quotable",
+            "description": "Random quotes API for applications."
+        },
+        {
+            "id": 125,
+            "name": "Open Data Soft API",
+            "url": "https://www.opendatasoft.com",
+            "description": "Access thousands of public datasets."
+        },
+        {
+            "id": 126,
+            "name": "Public APIs Directory API",
+            "url": "https://api.publicapis.org",
+            "description": "Machine-readable public API directory."
+        },
+        {
+            "id": 127,
+            "name": "Open Charge Map API",
+            "url": "https://openchargemap.org/site/develop/api",
+            "description": "Electric vehicle charging station data."
+        },
+        {
+            "id": 128,
+            "name": "Random Word API",
+            "url": "https://random-word-api.herokuapp.com",
+            "description": "Generate random English words."
+        },
+        {
+            "id": 129,
+            "name": "API Flash Screenshot API",
+            "url": "https://apiflash.com",
+            "description": "Website screenshot and rendering API."
+        },
+        {
+            "id": 130,
+            "name": "Open Sea Level API",
+            "url": "https://climate.nasa.gov",
+            "description": "Global sea level measurement data."
+        },
+        {
+            "id": 131,
+            "name": "Food API by Spoonacular",
+            "url": "https://spoonacular.com/food-api",
+            "description": "Recipes, nutrition, and food data."
+        },
+        {
+            "id": 132,
+            "name": "Open Anime Facts API",
+            "url": "https://anime-facts-rest-api.herokuapp.com",
+            "description": "Facts and trivia about anime series."
+        },
+        {
+            "id": 133,
+            "name": "Jikan API",
+            "url": "https://jikan.moe",
+            "description": "Unofficial MyAnimeList REST API."
+        },
+        {
+            "id": 134,
+            "name": "Open MusicBrainz API",
+            "url": "https://musicbrainz.org/doc/MusicBrainz_API",
+            "description": "Open music metadata including artists and albums."
+        },
+        {
+            "id": 135,
+            "name": "OpenStreetMap Nominatim API",
+            "url": "https://nominatim.org",
+            "description": "Geocoding and reverse geocoding service."
+        },
+        {
+            "id": 136,
+            "name": "Open Brewery Analytics API",
+            "url": "https://www.openbrewerydb.org",
+            "description": "Analytics-focused brewery dataset API."
+        },
+        {
+            "id": 137,
+            "name": "Fake Store API",
+            "url": "https://fakestoreapi.com",
+            "description": "Mock e-commerce product API for testing."
+        },
+        {
+            "id": 138,
+            "name": "Open Resume API",
+            "url": "https://jsonresume.org",
+            "description": "Structured resume and CV data API."
+        },
+        {
+            "id": 139,
+            "name": "Open Banks API",
+            "url": "https://openbanking.org.uk",
+            "description": "Open banking and financial institution data."
+        },
+        {
+            "id": 140,
+            "name": "Random Joke API",
+            "url": "https://official-joke-api.appspot.com",
+            "description": "Developer-friendly random joke API."
+        },
+        {
+            "id": 141,
+            "name": "Open Plants API",
+            "url": "https://trefle.io",
+            "description": "Plant species and botanical data."
+        },
+        {
+            "id": 142,
+            "name": "Open Transport API",
+            "url": "https://transportapi.com",
+            "description": "Public transport schedules and routes."
+        },
+        {
+            "id": 143,
+            "name": "Open Jobs API",
+            "url": "https://remotive.io/api/remote-jobs",
+            "description": "Remote and tech job listings API."
+        },
+        {
+            "id": 144,
+            "name": "Open Podcast Index API",
+            "url": "https://podcastindex.org",
+            "description": "Open index of podcast feeds and metadata."
+        },
+        {
+            "id": 145,
+            "name": "Open Color API",
+            "url": "https://www.thecolorapi.com",
+            "description": "Color palettes and color data API."
+        },
+        {
+            "id": 146,
+            "name": "Open Movie Quotes API",
+            "url": "https://movie-quote-api.herokuapp.com",
+            "description": "Movie quotes and character lines."
+        },
+        {
+            "id": 147,
+            "name": "Open Currency Symbols API",
+            "url": "https://restcountries.com",
+            "description": "ISO currency symbols and metadata."
+        },
+        {
+            "id": 148,
+            "name": "Open Chess API",
+            "url": "https://www.chess.com/news/view/published-data-api",
+            "description": "Chess player stats and game data."
+        },
+        {
+            "id": 149,
+            "name": "Open Recipe Puppy API",
+            "url": "http://www.recipepuppy.com/about/api",
+            "description": "Recipe search and ingredient data."
+        },
+        {
+            "id": 150,
+            "name": "Open Historical Events API",
+            "url": "https://history.muffinlabs.com",
+            "description": "Historical events by date."
+        },
+        {
+            "id": 151,
+            "name": "Open Lorem Ipsum API",
+            "url": "https://loripsum.net",
+            "description": "Generate placeholder text dynamically."
+        },
+        {
+            "id": 152,
+            "name": "Open URL Metadata API",
+            "url": "https://microlink.io",
+            "description": "Extract metadata from URLs."
+        },
+        {
+            "id": 153,
+            "name": "Open Barcode API",
+            "url": "https://www.barcodelookup.com/api",
+            "description": "Barcode lookup and product data."
+        },
+        {
+            "id": 154,
+            "name": "Open Airline Data API",
+            "url": "https://aviationstack.com",
+            "description": "Airline codes and aviation data."
+        },
+        {
+            "id": 155,
+            "name": "Open Weather Alerts API",
+            "url": "https://www.weather.gov/documentation/services-web-api",
+            "description": "Severe weather alerts and warnings."
+        }
+    ]
+}
