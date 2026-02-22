@@ -1,0 +1,60 @@
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+body.modal-open {
+    overflow: auto !important;
+}
+
+.modal {
+    pointer-events: none !important;
+}
+
+.modal-dialog {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    margin: 0;
+}
+
+footer {
+    height: 350px;
+    border-top-left-radius: 48px;
+    border-top-right-radius: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .move {
+        margin-top: 10%;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .right-side {
+        margin-top: 600px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .box {
+        max-width: 20rem;
+        margin-left: 50px;
+    }
+
+    .col-md-1 {
+        min-width: 350px;
+        margin-top: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        width: 348px;
+    }
+
+    .box {
+        margin-left: 15px;
+    }
+}
