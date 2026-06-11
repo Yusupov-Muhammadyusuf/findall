@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <Routes>
-      <Route path='/homepage' element={<HomePage /> } />
+      <Route path='/' element={<HomePage /> } />
       <Route path='/product' element={<Product />} />
       <Route path='/faq' element={<FAQ />} />
       <Route path='/terms' element={<TAC />} />
