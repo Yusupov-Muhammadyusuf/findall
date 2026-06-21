@@ -1,6 +1,6 @@
 # findall
 
-<img width="300" height="150" alt="findall" src="https://github.com/user-attachments/assets/0ee7c6f8-ec7a-4438-b0e3-2249a377d55a" />
+<img width="300" height="140" alt="findall" src="https://github.com/user-attachments/assets/0ee7c6f8-ec7a-4438-b0e3-2249a377d55a" />
 
 ## Inspiration
 **Findall** is a high-speed discovery platform designed to help you find websites, APIs, and bots faster than ever. Stop wasting hours on generic search engines and get straight to the tools you need.
