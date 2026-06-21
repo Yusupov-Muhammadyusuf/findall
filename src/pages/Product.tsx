@@ -85,7 +85,7 @@ export function Product() {
 
                             <div className="d-flex flex-column align-items-center text-center gap-4 w-100">
                                 <div className="text-dark mb-2">
-                                    <i className="bi bi-list fs-3" style={{ cursor: 'pointer' }}></i>
+                                    <i className="bi bi-list fs-3"></i>
                                 </div>
 
                                 <Link to="/" className="text-decoration-none text-secondary">
@@ -103,7 +103,7 @@ export function Product() {
                             </div>
 
                             <div className="mt-auto mb-4">
-                                <Link to="/contact" className="text-decoration-none text-secondary">
+                                <Link to="/faq" className="text-decoration-none text-secondary">
                                     <i className="bi bi-patch-question fs-3"></i>
                                 </Link>
                             </div>
