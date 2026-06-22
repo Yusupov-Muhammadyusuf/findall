@@ -1,7 +1,6 @@
-import { useEffect, useRef } from 'react';
 import { Navbar } from '../../components/Navbar';
 import { Footer } from '../../components/Footer';
-import rocket from '../../assets/images/rocket.png'
+import rocket from '../../assets/images/rocket.png';
 import tickIcon from '../../assets/tick_icons/icons8-tick-144.png';
 import './HomePage.css';
 
@@ -51,17 +50,16 @@ export function HomePage() {
         { image: tickIcon, text: "Real-time tool verification" },
         { image: tickIcon, text: "Fast search by functionality" },
         { image: tickIcon, text: "Direct links to developers" }
-    ]
+    ];
 
     const secondLists = [
         { image: tickIcon, text: "Powerful Web APIs" },
         { image: tickIcon, text: "Smart Telegram Bots" },
         { image: tickIcon, text: "Ready-to-use tools" }
-    ]
+    ];
 
     return (
         <>
-
             <title>Findall</title>
 
             <Navbar />
@@ -78,7 +76,7 @@ export function HomePage() {
 
                     <p className="box text-center mt-4" style={{ letterSpacing: "0.02em" }}>
                         Discover a curated collection of powerful Web APIs
-                        and versatile bots. Streamline<br></br> your development
+                        and versatile bots. Streamline<br /> your development
                         process and find the perfect tools for your
                         next big project today.
                     </p>
@@ -103,7 +101,6 @@ export function HomePage() {
                     className="d-flex justify-content-center flex-column flex-md-row align-items-center"
                     style={{ marginTop: "50px" }}
                 >
-
                     {upInfoTexts.map((item, index) => (
                         <div className="col-md-1 text-center w-25 mx-5" key={index}>
                             <i className={`bi ${item.icon} text-secondary fs-4`}></i>
@@ -115,11 +112,9 @@ export function HomePage() {
                             </p>
                         </div>
                     ))}
-
                 </div>
 
                 <div className="d-flex justify-content-center align-items-center flex-column flex-md-row mt-sm-5">
-
                     {downInfoTexts.map((item, index) => (
                         <div className="col-md-1 text-center w-25 mx-5" key={index}>
                             <i className={`bi ${item.icon} text-secondary fs-4`}></i>
@@ -131,19 +126,13 @@ export function HomePage() {
                             </p>
                         </div>
                     ))}
-
                 </div>
             </section>
 
-            {/* Float section */}
             <section className="container p-5">
-                <div
-                    className="row"
-                    style={{ marginTop: "75px" }}
-                >
-
+                <div className="row" style={{ marginTop: "75px" }}>
                     <div className="col-12 col-md-5 offset-md-1">
-                        <img src="unDraw.png" className="img-fluid rounded-5" style={{ width: "360px" }} />
+                        <img src="unDraw.png" className="img-fluid rounded-5" style={{ width: "360px" }} alt="unDraw" />
                     </div>
 
                     <div className="move col-12 col-md-5 d-flex flex-column">
@@ -165,33 +154,32 @@ export function HomePage() {
                             ))}
                         </ul>
                     </div>
+                </div>
 
-                    <div className="move row align-items-center">
-                        <div className="col-12 col-md-5 offset-md-1 order-2 order-md-1 d-flex flex-column justify-content-center mt-2">
-                            <h1 className='center fw-normal'>Explore Resources.</h1>
-                            <p className='center'>
-                                Verified tools for your next big idea in one place.
-                            </p>
+                <div className="move row align-items-center mt-5">
+                    <div className="col-12 col-md-5 offset-md-1 order-2 order-md-1 d-flex flex-column justify-content-center mt-2">
+                        <h1 className='center fw-normal'>Explore Resources.</h1>
+                        <p className='center'>
+                            Verified tools for your next big idea in one place.
+                        </p>
 
-                            <ul className="list-unstyled d-sm-block d-none">
-                                {secondLists.map((list, index) => (
-                                    <li className="mb-2" key={index}>
-                                        <img src={list.image}
-                                            alt="tickIcon"
-                                            className='me-2'
-                                            style={{ width: "35px" }}
-                                        />
-                                        {list.text}
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-
-                        <div className="col-12 col-md-5 order-1 order-md-2 mb-4">
-                            <img src="unDraw2.png" className="img-fluid rounded-5" style={{ width: "360px" }} />
-                        </div>
+                        <ul className="list-unstyled d-sm-block d-none">
+                            {secondLists.map((list, index) => (
+                                <li className="mb-2" key={index}>
+                                    <img src={list.image}
+                                        alt="tickIcon"
+                                        className='me-2'
+                                        style={{ width: "35px" }}
+                                    />
+                                    {list.text}
+                                </li>
+                            ))}
+                        </ul>
                     </div>
 
+                    <div className="col-12 col-md-5 order-1 order-md-2 mb-4">
+                        <img src="unDraw2.png" className="img-fluid rounded-5" style={{ width: "360px" }} alt="unDraw2" />
+                    </div>
                 </div>
             </section>
 
