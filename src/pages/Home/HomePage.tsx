@@ -6,14 +6,6 @@ import tickIcon from '../../assets/tick_icons/icons8-tick-144.png';
 import './HomePage.css';
 
 export function HomePage() {
-    const openButtonRef = useRef<HTMLButtonElement | null>(null);
-
-    useEffect(() => {
-        if (openButtonRef.current) {
-            openButtonRef.current.click();
-        }
-    }, []);
-
     const upInfoTexts = [
         {
             icon: "bi-globe",
@@ -74,65 +66,6 @@ export function HomePage() {
 
             <Navbar />
 
-            {/* Modal */}
-            <button
-                ref={openButtonRef}
-                type="button"
-                className="d-none"
-                data-bs-toggle="modal"
-                data-bs-target="#staticFloatingModal"
-            ></button>
-
-            <div
-                className="modal fade d-sm-block d-none"
-                id="staticFloatingModal"
-                data-bs-backdrop="false"
-                data-bs-keyboard="false"
-            >
-
-                <div className="modal-dialog">
-                    <div className="modal-content border-0">
-
-                        {/* Header */}
-                        <div className="modal-header border-0 mt-2">
-                            <img src="all.png" alt="logo" style={{ width: "8%" }} />
-                            <p
-                                className='modal-title text-secondary ms-2'
-                                style={{ fontSize: "13px" }}>
-                                FINDALL
-                            </p>
-                            <button
-                                type="button"
-                                className="btn-close btn-close-dark shadow-none"
-                                style={{ fontSize: "13px" }}
-                                data-bs-dismiss="modal"
-                                aria-label="Close"
-                            ></button>
-                        </div>
-
-                        {/* Body */}
-                        <div className="modal-body p-3">
-                            <h6>Find tools via our extension</h6>
-                            <p className="small mb-0 text-muted">
-                                Get instant notifications when new tools are added.
-                            </p>
-                            <a
-                                href="#"
-                                className='
-                                btn btn-outline-primary
-                                text-decoration-none
-                                border-2 border-primary
-                                rounded-5 mt-3
-                                '>
-                                Add to Browser
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            {/* Welcome section */}
             <section>
                 <div style={{ marginTop: "130px" }}>
                     <h1 className="text-center fw-bold" style={{ lineHeight: "1.05em" }}>
@@ -165,9 +98,7 @@ export function HomePage() {
                 </div>
             </section>
 
-            {/* Card section */}
             <section className='container'>
-                {/* Card line */}
                 <div
                     className="d-flex justify-content-center flex-column flex-md-row align-items-center"
                     style={{ marginTop: "50px" }}
@@ -235,7 +166,6 @@ export function HomePage() {
                         </ul>
                     </div>
 
-                    {/* Next side */}
                     <div className="move row align-items-center">
                         <div className="col-12 col-md-5 offset-md-1 order-2 order-md-1 d-flex flex-column justify-content-center mt-2">
                             <h1 className='center fw-normal'>Explore Resources.</h1>
