@@ -8,7 +8,7 @@ export function Footer() {
     ]
 
     const socialLinks = [
-        { href: "https://t.me/Muhammadyusuf", icon: "bi-telegram" },
+        { href: "https://t.me/telemetrio_api_bot", icon: "bi-telegram" },
         { href: "https://github.com/Yusupov-Muhammadyusuf", icon: "bi-github" },
         { href: "https://www.youtube.com", icon: "bi-youtube" },
         { href: "mailto:muhammadyusuf.yusupov201@gmail.com", icon: "bi-envelope" }
