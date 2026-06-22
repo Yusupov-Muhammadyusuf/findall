@@ -2,21 +2,6 @@
     text-decoration: underline;
 }
 
-body.modal-open {
-    overflow: auto !important;
-}
-
-.modal {
-    pointer-events: none !important;
-}
-
-.modal-dialog {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    margin: 0;
-}
-
 footer {
     height: 350px;
     border-top-left-radius: 48px;
