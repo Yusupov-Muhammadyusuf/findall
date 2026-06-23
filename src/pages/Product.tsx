@@ -36,9 +36,9 @@ export function Product() {
     useEffect(() => {
         const productData = async () => {
             const [api, web, bot] = await Promise.all([
-                axios.get('data/api.json'),
-                axios.get('data/web.json'),
-                axios.get('data/bot.json')
+                axios.get('/data/api.json'),
+                axios.get('/data/web.json'),
+                axios.get('/data/bot.json')
             ]);
 
             const apiServices = api.data.services.map((item: Service): ExtendedService => ({
